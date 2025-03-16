@@ -5,7 +5,7 @@ This repository contains the code for an **Ayurveda Wellness Assistant**, a web 
 ## Features
 
 1. **Chatbot**:
-   - Users can ask Ayurveda-related questions, and the chatbot will provide intelligent responses using OpenAI's GPT-3.5-turbo model.
+   - Users can ask Ayurveda-related questions, and the chatbot will provide intelligent responses.
 
 2. **AI-Driven Diagnostic**:
    - Users can generate a personalized Ayurvedic health report by clicking the "Generate Report" button.
