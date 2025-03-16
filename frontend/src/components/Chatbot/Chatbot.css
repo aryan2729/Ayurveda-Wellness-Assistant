@@ -1,0 +1,62 @@
+.chatbot {
+  background-color: white;
+  width: 700px;
+  height: auto;
+  padding: 20px;
+  margin-left: 0px;
+  margin-top: 20px;
+
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .messages {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 70%;
+  }
+  
+  .message.user {
+    background-color: #4CAF50; /* Green for user messages */
+    color: white;
+    margin-left: auto;
+  }
+  
+  .message.bot {
+    background-color: #FF9800; /* Orange for bot messages */
+    color: white;
+    margin-right: auto;
+  }
+  
+  .input-area {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input-area input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .input-area button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+  }
+
+  .bot-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Makes the avatar circular */
+  }

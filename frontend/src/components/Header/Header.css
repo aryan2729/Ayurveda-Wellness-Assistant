@@ -1,0 +1,60 @@
+.header {
+ 
+    background-image: url("/photos/header-bg.jpg");
+    background-size: cover; /* Ensures the image covers the entire header */
+    background-position:200cap; /* Centers the image */
+  
+    background-color: #4eb64e; /* Green header */
+    color: white;
+    padding: 50px;
+    margin-left:40px;
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+    width: 100%;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  nav ul li a:hover {
+    color: #FF9800; /* Orange on hover */
+  }
+
+
+
+
+
+
+
+#logo {
+    
+  width: 180px;
+  height: 180px;
+}
+
+.header h1 {
+  color: black;
+  
+  margin-left: 8px;
+  font-size: 2.5rem;
+}
+
+.header p {
+  margin: 0; /* Removes default margin */
+  font-size: 16px; /* Adjust as needed */
+}

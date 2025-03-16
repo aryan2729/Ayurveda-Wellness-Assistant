@@ -1,0 +1,32 @@
+
+  .footer {
+    background-color:#F5F5DC;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    
+    margin-left: 20px; /* Adds 20px margin to the left */
+    margin-right: 20px; /* Adds 20px margin to the right */
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between icons */
+    margin-bottom: 10px; /* Space between icons and text */
+  }
+  
+  .social-icons img {
+    width: 30px; /* Adjust icon size */
+    height: 30px;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.2); /* Enlarge icons on hover */
+  }
+  
+  .footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Adjust text size */
+  }
