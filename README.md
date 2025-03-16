@@ -62,24 +62,37 @@ This repository contains the code for an **Ayurveda Wellness Assistant**, a web 
   npm run dev
 
 6. **Folder Structure**
-   ayurveda-wellness-assistant/
+
+ayurveda-wellness-assistant/
 ├── frontend/
 │   ├── public/
+│   │   ├── photos/                  # Contains images (e.g., bot-avatar.png, logo.jpg)
+│   │   ├── icons/                   # Contains social media icons (e.g., facebook.png, instagram.png)
 │   ├── src/
 │   │   ├── components/
 │   │   │   ├── Chatbot/
+│   │   │   │   ├── Chatbot.css      # Styles for the Chatbot component
+│   │   │   │   ├── Chatbot.jsx      # Chatbot component logic
 │   │   │   ├── Diagnostic/
+│   │   │   │   ├── Diagnostic.css   # Styles for the Diagnostic component
+│   │   │   │   ├── Diagnostic.jsx   # Diagnostic component logic
 │   │   │   ├── ECommerce/
+│   │   │   │   ├── ECommerce.css    # Styles for the ECommerce component
+│   │   │   │   ├── ECommerce.jsx    # ECommerce component logic
 │   │   │   ├── Footer/
+│   │   │   │   ├── Footer.css       # Styles for the Footer component
+│   │   │   │   ├── Footer.jsx       # Footer component logic
 │   │   │   ├── Header/
-│   │   ├── App.jsx
-│   │   ├── index.js
-│   ├── package.json
+│   │   │   │   ├── Header.css       # Styles for the Header component
+│   │   │   │   ├── Header.jsx       # Header component logic
+│   │   ├── App.jsx                  # Main App component
+│   │   ├── index.js                 # Entry point for the React app
+│   ├── package.json                 # Frontend dependencies and scripts
 ├── backend/
-│   ├── server.js
-│   ├── package.json
-│   ├── .env
-├── README.md
+│   ├── server.js                    # Backend server logic
+│   ├── package.json                 # Backend dependencies and scripts
+│   ├── .env                         # Environment variables (e.g., API keys)
+├── README.md                        # Project documentation
 
 **Contributing**
 
