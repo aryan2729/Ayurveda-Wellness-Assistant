@@ -65,8 +65,6 @@ This repository contains the code for an **Ayurveda Wellness Assistant**, a web 
 
 Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request with your changes.
 
-**License**
 
-This project is licensed under the MIT License. See the LICENSE file for details.
   
    
